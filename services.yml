@@ -1,9 +1,0 @@
-services:
-    database:
-        name: PostgreSQL
-        commands:
-            start: docker run postgres
-tasks:
-    run-unit-tests:
-        name: Runs unit tests
-        command: go test -v ./...
