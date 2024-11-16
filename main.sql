@@ -88,6 +88,17 @@ INSERT INTO Comments (id, post_id, user_id, comment, comment_date) VALUES
 (4, 4, 1, 'Let me know if you have any doubts', '2024-11-13'),
 (5, 2, 5, 'McDonald’s?', '2024-11-13');
 
+-- Insert new values into Likes
+INSERT INTO Likes (id, post_id, user_id) VALUES
+    (2, 2, 2),
+    (3, 3, 2),
+    (4, 3, 3),
+    (5, 3, 4),
+    (6, 4, 1),
+    (7, 4, 2),
+    (8, 4, 3),
+    (9, 4, 4);
+
 -- Exercise 4: Define foreign keys and create Followers table
 
 -- Foreign keys for Posts, Likes, and Comments tables are already defined above
