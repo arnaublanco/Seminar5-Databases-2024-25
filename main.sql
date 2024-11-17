@@ -120,11 +120,11 @@ INSERT INTO Followers (follower_id, following_id) VALUES
     (4, 3),  -- Bob follows Alice
     (4, 5),  -- Bob follows Mallory
     (5, 4),  -- Mallory follows Bob
-    (5, 6),  -- Mallory follows John
-    (3, 6),  -- Alice follows John
+    (5, 2),  -- Mallory follows John
+    (3, 2),  -- Alice follows John
     (1, 5),  -- Teacher follows Mallory
-    (1, 6),  -- Teacher follows John
-    (6, 1);  -- John follows Teacher
+    (1, 2),  -- Teacher follows John
+    (2, 1);  -- John follows Teacher
 
 -- Exercise 5: Queries for specific data
 
